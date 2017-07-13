@@ -92,8 +92,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 .services-heading h3{
     color: #FF5722;
     font-size: 3em;
-    margin: 0;
+    margin: 0 60px;
     font-family: 'Pacifico', cursive;
+}
+
+@media (max-width: 767px) {
+	.services-heading h3{
+	    color: #FF5722;
+	    font-size: 2em;
+	    margin: 0 80px;
+	    font-family: 'Pacifico', cursive;
+	}
 }
 
 .services-heading h3 span{

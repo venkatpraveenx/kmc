@@ -241,6 +241,7 @@ section.success {
   section.first {
     padding-top: 75px;
   }
+
   #CDT{
   	font-family:'Oswald', Arial;
   	font-size:1.5em;
@@ -554,6 +555,7 @@ fieldset[disabled] .btn-success.active {
   right: 25px;
   cursor: pointer;
 }
+
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
@@ -580,6 +582,29 @@ fieldset[disabled] .btn-success.active {
   /* Safari and Chrome */
   z-index: 1052;
 }
+
+
+@media (max-width: 767px){
+  .portfolio-modal .close-modal {
+    position: absolute;
+    width: 75px;
+    height: 5px;
+    background-color: transparent;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+  }
+
+  .portfolio-modal .close-modal .lr {
+    height: 50px;
+  }
+  .portfolio-modal .close-modal .lr .rl {
+    height: 50px;
+  }
+
+}
+
+
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
