@@ -212,17 +212,11 @@ section.success {
   color: white;
 }
 
+
 #CDT{
-  margin-top: 20px;
-}
-
-#CDT span{
-  text-align: center;
-}
-
-#CDT p{
   font-family:'Oswald', Arial;
   font-size:2.5em;
+  padding: 40px 0 20px 450px;
 }
 
 #defaultCountdown{
@@ -240,14 +234,6 @@ section.success {
   height:500px;
 }
 
-.countdown-period {
-  display: block;
-	line-height:60px;
-	color:#18BC9C;
-	font-size:18px;
-	font-weight:100;
-}
-
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
@@ -255,23 +241,10 @@ section.success {
   section.first {
     padding-top: 75px;
   }
-
-  .countdown-period {
-    display: block;
-  	line-height:60px;
-  	color:#18BC9C;
-  	font-size:14px;
-  	font-weight:100;
-    margin-top: -10px;
-  }
-
   #CDT{
-    margin-top: 50px;
-  }
-
-  #CDT p{
   	font-family:'Oswald', Arial;
   	font-size:1.5em;
+  	padding: 60px 0 20px 80px;
   }
 
   #defaultCountdown{
