@@ -1088,6 +1088,13 @@ body {
   color: #333;
   background-color: #fff;
 }
+
+@media(max-width: 570px){
+    body{
+      font-size: 12px;
+    }
+}
+
 input,
 button,
 select,

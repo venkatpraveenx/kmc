@@ -274,7 +274,11 @@ section.success {
   }
 }
 
-
+@media (max-width: 570px){
+  #Maps{
+    width:300px;
+  }
+}
 
 
 
