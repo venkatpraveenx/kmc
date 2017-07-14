@@ -227,7 +227,8 @@ section.success {
 
 #CDT{
   font-family:'Oswald', Arial;
-  font-size:2.5em;
+  padding-top: 10px;
+  font-size:2em;
 }
 
 #defaultCountdown{
