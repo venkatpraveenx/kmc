@@ -18,6 +18,9 @@
     <link href="css/freelancer.css" rel="stylesheet">
 
     <!--counter css-->
+    <link href="assets/css/base.min.css" rel="stylesheet" />
+
+    <!--old counter-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap-light.css">
 
@@ -132,7 +135,8 @@
     <!--Counter Section-->
     <section id="counter">
         <div id="wrap" display:'inline-block'>
-            <div id="defaultCountdown"></div>
+            <div id="clock2" class="clock"></div>
+            <div id="clock3" class="clock"></div>
             <div id="CountdownText"><p id="CDT">left for Medrenaline '17</p></div>
         </div>
     </section>
@@ -560,15 +564,23 @@
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <!--counter script-->
-    <script src="js/jquery.plugin.js"></script>
-    <script src="js/jquery.countdown.js"></script>
-    <script>
-        $(function () {
-            $('#defaultCountdown').countdown({until: new Date(2017, 7-1, 25)});
-            //Replace above date with your own, to find out more visit http://keith-wood.name/countdown.html
-        });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="assets/js/digital-countdown.js"></script>
 
+    <script>
+
+        $(function(){
+            $("#clock2").countdownDigital({
+                dateTo: '2020-12-05T17:00'
+            });
+            $("#clock3").countdownDigital({
+                dateTo: '2015-12-06T15:19',
+                labels: true,
+                showBlank: false
+            });
+        });
+
+    </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
