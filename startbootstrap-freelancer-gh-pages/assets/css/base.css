@@ -11,10 +11,10 @@ body {
 
 .clock {
   background-color: #FFF;
-  padding: 10px; }
+}
   @media only screen and (max-width: 40.063em) {
     .clock {
-      min-width: 430px; } }
+      min-width: 400px; } }
 
 .digit {
   width: 60px;

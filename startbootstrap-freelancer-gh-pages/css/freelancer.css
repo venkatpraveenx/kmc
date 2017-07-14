@@ -16,6 +16,10 @@ body {
   text-align: center;
 }
 
+.item, .item.active{
+  opacity: 0.3;
+}
+
 #clock2{
   padding-top: 20px;
 }
