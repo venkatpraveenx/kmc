@@ -10,7 +10,7 @@ body {
   font-family: sans-serif; }
 
 .clock {
-  background-color: #FFF;
+  background-color: inherit;
 }
   @media only screen and (max-width: 40.063em) {
     .clock {
@@ -19,7 +19,7 @@ body {
 .digit {
   width: 60px;
   height: 120px;
-  background-color: #FFF;
+  background-color: inherit;
   position: relative;
   display: inline-block; }
   @media only screen and (min-width: 40.064em) and (max-width: 49.999em) {
@@ -36,7 +36,7 @@ body {
   width: 20px;
   height: 120px;
   position: relative;
-  background-color: #FFF; }
+  background-color: inherit;; }
   @media only screen and (min-width: 40.064em) and (max-width: 49.999em) {
     .dots {
       width: 12px;
@@ -356,7 +356,7 @@ body {
 .labels {
   display: block;
   margin-top: 0;
-  background-color: #FFF; }
+  background-color: inherit;; }
 
 .each {
   width: 140px;
