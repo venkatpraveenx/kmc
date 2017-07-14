@@ -1089,7 +1089,7 @@ body {
   background-color: #fff;
 }
 
-@media(max-width: 650px){
+@media(max-width: 700px){
     body{
       font-size: 12px;
     }

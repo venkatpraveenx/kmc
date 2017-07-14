@@ -274,7 +274,7 @@ section.success {
   }
 }
 
-@media (max-width: 650px){
+@media (max-width: 700px){
   #Maps{
     width:300px;
   }
