@@ -12,9 +12,6 @@ body {
 .clock {
   background-color: inherit;
 }
-  @media only screen and (max-width: 40.063em) {
-    .clock {
-      min-width: 400px; } }
 
 .digit {
   width: 60px;
