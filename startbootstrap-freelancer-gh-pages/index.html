@@ -25,6 +25,11 @@
     <link rel="stylesheet" href="css/workshopstyle.css" type="text/css" media="all" />
     <!--// Workshop css -->
 
+    <!-- Carousel css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
+
+
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -82,21 +87,47 @@
         <!-- /.container-fluid -->
     </nav>
 
+
+
+
     <!-- Header -->
-    <header>
-        <div class="container" id="maincontent" tabindex="-1">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="src/logo.png" alt="">
-                    <div class="intro-text">
-                        <h1 class="name"></h1>
-                        <hr class="star-light">
-                        <span class="skills"></span>
-                    </div>
-                </div>
-            </div>
+<header id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for Slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <!-- Set the first background image using inline CSS below. -->
+            <div class="fill" style="background-image:url('src/pic 3.JPG');"></div>
         </div>
-    </header>
+        <div class="item">
+            <!-- Set the second background image using inline CSS below. -->
+            <div class="fill" style="background-image:url('src/pic 2.JPG');"></div>
+        </div>
+        <div class="item">
+            <!-- Set the third background image using inline CSS below. -->
+            <div class="fill" style="background-image:url('src/pic 1.jpg');"></div>
+
+        </div>
+        <div class="carousel-caption">
+            <img class="img-responsive" src="src/logo.png" alt="">
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+
+</header>
 
     <!--Counter Section-->
     <section id="counter">
@@ -550,6 +581,14 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
+    </script>
+
 
 </body>
 
