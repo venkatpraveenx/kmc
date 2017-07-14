@@ -246,6 +246,18 @@ section.success {
   height:500px;
 }
 
+@media (min-width: 400px){
+  #icons{
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 330px) and (max-width:390px){
+  #icons{
+    margin-left: 0px;
+  }
+}
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
