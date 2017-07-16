@@ -1,6 +1,6 @@
 [class*='col-lg'],
 [class*='col-md'],
-[class*='col-sm'], 
+[class*='col-sm'],
 [class*='col-xs'] {
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
@@ -642,6 +642,9 @@ box-sizing: border-box;
   }
   .col-lg-offset-2 {
     margin-left: 16.66666667%;
+  }
+  #workshop{
+    margin-left: 0%;
   }
   .col-lg-offset-1 {
     margin-left: 8.33333333%;
