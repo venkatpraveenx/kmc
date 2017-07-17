@@ -12,10 +12,6 @@ body {
   padding-bottom: 20px;
 }
 
-.row{
-  padding-bottom: 50px;
-}
-
 #portfolioModal5{
   overflow-y:scroll;
 }
@@ -406,8 +402,7 @@ section.success {
 
   .ContactDetails{
     float: right;
-    font-size: 1.5em;
-    margin:5px 0;
+    font-size: 1.3em;
   }
 
   #FTS{
