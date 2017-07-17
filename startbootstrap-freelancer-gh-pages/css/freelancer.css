@@ -343,7 +343,8 @@ section.success {
 }
 
 #ContactUsHeader{
-  margin-left: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 400px){
