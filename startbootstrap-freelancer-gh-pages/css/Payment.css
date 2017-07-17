@@ -1,0 +1,52 @@
+/*PAYMENT CSS*/
+
+#paytm{
+    padding:60px 0 0 20px;
+    width:400px;
+    height:400px;
+}
+
+#PaytmLogo{
+  height: 30px;
+}
+
+#Header{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2em;
+}
+
+#QRContainer{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.QR{
+  display: inline-block;
+}
+
+#instructions{
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#WholePage{
+  padding: 60px;
+}
+
+
+@media (max-width: 767px){
+  #paytm{
+      padding:20px 0 0 0;
+      width:200px;
+      height:200px;
+  }
+
+  .QR{
+    padding:10px;
+  }
+
+  #Header{
+    margin-top: 0px;
+  }
+}
