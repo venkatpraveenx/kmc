@@ -321,19 +321,28 @@ section.success {
   height:500px;
 }
 
-.ContactData{
+#MapDiv{
   display: inline-block;
-  width: 600px;
+  width: 650px;
   height: 500px;
 }
 
-#ContactDetails{
-  float: right;
+#ContactDiv{
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  margin-left: 50px;
+}
+
+.ContactDetails{
+  width: 100%;
   font-size: 1.5em;
+  margin-left: 100px;
 }
 
 #FTS{
-  padding-top: 250px;
+  margin-top: 250px;
+  float: left;
 }
 
 @media (min-width: 400px){
@@ -375,19 +384,34 @@ section.success {
     height:500px;
   }
 
+  #MapDiv{
+    display: inline-block;
+    width: 380px;
+    height: 500px;
+  }
+
+  #ContactDiv{
+    display: inline-block;
+    width: 230px;
+    height: 100px;
+    margin-left: 80px;
+  }
+
   .ContactData{
     display: inline-block;
     width: 380px;
     height: 100px;
   }
 
-  #ContactDetails{
+  .ContactDetails{
     float: right;
-    font-size: 1em;
+    font-size: 1.5em;
+    margin:0;
   }
 
   #FTS{
-    padding-top: 50px;
+    padding-top: 40px;
+    margin: 0;
   }
 }
 
@@ -395,6 +419,15 @@ section.success {
   #Maps{
     width:300px;
   }
+
+  #MapDiv{
+    width: 300px;
+  }
+
+  #ContactDiv{
+    margin-left: 60px;
+  }
+
   .ContactData{
     display: inline-block;
     width: 300px;
@@ -407,7 +440,8 @@ section.success {
   }
 
   #FTS{
-    padding-top: 50px;
+    padding-top:60px;
+    margin: 0;
   }
 }
 
