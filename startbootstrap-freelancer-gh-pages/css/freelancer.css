@@ -321,6 +321,21 @@ section.success {
   height:500px;
 }
 
+.ContactData{
+  display: inline-block;
+  width: 600px;
+  height: 500px;
+}
+
+#ContactDetails{
+  float: right;
+  font-size: 1.5em;
+}
+
+#FTS{
+  padding-top: 250px;
+}
+
 @media (min-width: 400px){
   #icons{
     margin-left: 30px;
@@ -359,11 +374,40 @@ section.success {
     width:380px;
     height:500px;
   }
+
+  .ContactData{
+    display: inline-block;
+    width: 380px;
+    height: 100px;
+  }
+
+  #ContactDetails{
+    float: right;
+    font-size: 1em;
+  }
+
+  #FTS{
+    padding-top: 50px;
+  }
 }
 
 @media (max-width: 400px){
   #Maps{
     width:300px;
+  }
+  .ContactData{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+  }
+
+  #ContactDetails{
+    float: right;
+    font-size: 1em;
+  }
+
+  #FTS{
+    padding-top: 50px;
   }
 }
 
