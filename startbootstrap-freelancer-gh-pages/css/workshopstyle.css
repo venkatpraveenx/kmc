@@ -51,6 +51,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     background: #ff5722;
     color: #ffffff;
 }
+
+.wthree-news-button_1{
+	margin: 1em 0 0 0;
+}
+.wthree-news-button_1 a{
+		color: #ffffff;
+    font-size: 1em;
+    padding: .5em 1em;
+    border: solid 2px #ff5722;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: #ff5722;
+}
+
 .col-news-top .date-in {
 	overflow: hidden;
 	position: relative;
