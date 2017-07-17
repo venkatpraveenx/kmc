@@ -68,6 +68,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		margin-left: 10px;
 }
 
+.buttonReg:hover{
+	color:#000;
+}
+
 .buttonClose{
 		color: #ffffff;
     font-size: 1em;
@@ -78,6 +82,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     letter-spacing: 1px;
     background: #ec5645;
 		margin-left: 10px;
+}
+
+.buttonClose:hover{
+	color:#000;
 }
 
 .col-news-top .date-in {
