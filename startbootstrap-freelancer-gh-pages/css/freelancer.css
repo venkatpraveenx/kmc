@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+.img-responsive.img-centered{
+  padding-bottom: 20px;
+}
+
 #portfolioModal5{
   overflow-y:scroll;
 }
