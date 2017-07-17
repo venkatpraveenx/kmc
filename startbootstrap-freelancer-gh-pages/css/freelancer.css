@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+.row{
+  padding-bottom: 60px;
+}
+
 .img-responsive.img-centered{
   padding-bottom: 20px;
 }
