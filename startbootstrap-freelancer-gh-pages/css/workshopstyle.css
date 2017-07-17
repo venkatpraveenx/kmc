@@ -5,6 +5,15 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
+.date-in.button2, .img-responsive.mix-in{
+	max-height: 300px;
+	width:100%;
+}
+
+.col-news-top{
+	height: 500px;
+}
+
 /*-- //modal --*/
 /*-- banner-bottom --*/
 .news-section{
