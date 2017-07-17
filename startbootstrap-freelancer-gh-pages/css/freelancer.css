@@ -8,10 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-.row{
-  padding-bottom: 60px;
-}
-
 .img-responsive.img-centered{
   padding-bottom: 20px;
 }
@@ -311,9 +307,7 @@ section.success {
 
 }
 
-#qwe{
-	margin: 0 0 5% 32%;
-}
+
 
 #Maps{
 	padding:60px 0 0 20px;
