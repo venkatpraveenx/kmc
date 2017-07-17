@@ -55,15 +55,28 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 .wthree-news-button_1{
 	margin: 1em 0 0 0;
 }
-.wthree-news-button_1 a{
+
+.buttonReg{
 		color: #ffffff;
     font-size: 1em;
     padding: .5em 1em;
-    border: solid 2px #ff5722;
+    border: solid 2px #18BC9C;
     text-decoration: none;
     font-weight: 700;
     letter-spacing: 1px;
-    background: #ff5722;
+    background: #18BC9C;
+		margin-left: 10px;
+}
+
+.buttonClose{
+		color: #ffffff;
+    font-size: 1em;
+    padding: .5em 1em;
+    border: solid 2px #ec5645;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: #ec5645;
 		margin-left: 10px;
 }
 
