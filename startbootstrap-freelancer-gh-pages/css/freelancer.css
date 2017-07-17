@@ -12,6 +12,10 @@ body {
   padding-bottom: 20px;
 }
 
+.row{
+  padding-bottom: 50px;
+}
+
 #portfolioModal5{
   overflow-y:scroll;
 }
@@ -284,7 +288,7 @@ header .intro-text .skills {
 
 
 section {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 section h2 {
   margin: 0;
