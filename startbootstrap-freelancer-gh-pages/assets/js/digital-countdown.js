@@ -1,19 +1,19 @@
 (function(window, $, undefined) {
-    
+
     $.fn.countdownDigital = function(options){
-        
+
         // Default parameters
-		var defaults = $.extend({
-			dateTo: '2016-06-21',
+        var defaults = $.extend({
+            dateTo: '2016-06-21',
             dateNow: null,
             labels: true,
             showBlank: true
-		},options);
-  
+        },options);
+
         var digits = [
-            'zero', 
-            'one', 
-            'two', 
+            'zero',
+            'one',
+            'two',
             'three',
             'four',
             'five',
@@ -23,7 +23,8 @@
             'nine'
         ];
 
-        var labels = [ 
+        var labels = [
+            'month',
             'days',
             'hours',
             'minutes',
@@ -31,14 +32,14 @@
         ];
 
         function drawCountdown(_element) {
-            
+
             var dateTo = moment(defaults.dateTo);
-            var dateNow = (defaults.dateNow == null) ? moment() : defaults.dateNow; 
+            var dateNow = (defaults.dateNow == null) ? moment() : defaults.dateNow;
             var dateDiff = dateTo.diff(dateNow);
             var asDurations = getAsDurations(dateDiff);
             var durations = getDurations(dateDiff);
             var digit_holder = $('<div class="digits"></div>').appendTo(_element);
-            
+
             $.each(labels, function(key,val){
                 var arg = (asDurations[key] > 1);
                 if(arg || defaults.showBlank) {
@@ -69,18 +70,18 @@
                     label.append('<span class="dots"></span>');
                     label.appendTo(digit_holder);
 
-                } 
+                }
             });
 
         }
 
-        
+
         function updateTime(_element) {
 
             var dateTo = moment(defaults.dateTo);
-            var dateNow = (defaults.dateNow == null) ? moment() : defaults.dateNow; 
+            var dateNow = (defaults.dateNow == null) ? moment() : defaults.dateNow;
             var dateDiff = dateTo.diff(dateNow);
-            
+
             if(dateDiff > 0) {
                 var asDurations = getAsDurations(dateDiff);
                 var durations = getDurations(dateDiff);
@@ -98,43 +99,45 @@
                     dig.addClass('zero');
                 });
             }
-            
+
         }
-        
+
         function getDurations(dateDiff) {
             return [
+                moment.duration(dateDiff).months(),
                 moment.duration(dateDiff).days(),
                 moment.duration(dateDiff).hours(),
                 moment.duration(dateDiff).minutes(),
                 moment.duration(dateDiff).seconds()
             ];
         }
-        
+
         function getAsDurations(dateDiff) {
-             return [
+            return [
+                moment.duration(dateDiff).asMonths(),
                 moment.duration(dateDiff).asDays(),
                 moment.duration(dateDiff).asHours(),
                 moment.duration(dateDiff).asMinutes(),
                 moment.duration(dateDiff).asSeconds()
-            ];            
+            ];
         }
-        
+
         function startCountdown(_element) {
-            setInterval( 
-                function() { 
+            setInterval(
+                function() {
                     updateTime(_element);
                 }, 1000);
         }
-        
-        
+
+
         // Return instance
         return this.each(function(){
-            
+
             var _element = $(this);
-            
+
             drawCountdown(_element);
             startCountdown(_element);
-		});
+        });
 
         function pad(num, size) {
             // Add the leading zeros to the numbers
@@ -143,7 +146,7 @@
             return s;
         }
 
-        
+
     };
-    
+
 }(window, jQuery));
