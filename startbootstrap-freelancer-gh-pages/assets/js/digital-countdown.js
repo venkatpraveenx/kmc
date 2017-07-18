@@ -24,7 +24,7 @@
         ];
 
         var labels = [
-            'month',
+            'months',
             'days',
             'hours',
             'minutes',
