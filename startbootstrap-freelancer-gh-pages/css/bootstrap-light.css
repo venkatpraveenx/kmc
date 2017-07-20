@@ -641,6 +641,10 @@ box-sizing: border-box;
     margin-left: 25%;
   }
   .col-lg-offset-2 {
+    margin-left: 16.666667%;
+  }
+
+  #AboutCenter{
     margin-left: 0;
   }
   #workshop{
