@@ -382,7 +382,7 @@ section.success {
 
   #Maps{
   	padding:60px 0 0 20px;
-    width:380px;
+    width:360px;
     height:500px;
   }
 
@@ -394,7 +394,7 @@ section.success {
 
   #ContactDiv{
     display: inline-block;
-    width: 230px;
+    width: 330px;
     height: 100px;
     margin-left: 60px;
     overflow: visible;
