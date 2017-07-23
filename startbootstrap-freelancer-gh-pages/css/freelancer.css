@@ -88,7 +88,7 @@ body {
 }
 
 .item, .item.active{
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 #clock2{
