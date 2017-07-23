@@ -308,13 +308,13 @@ section.success {
 }
 
 #Maps{
-  width:650px;
+  width:630px;
   height:500px;
 }
 
 #MapDiv{
   display: inline-block;
-  width: 650px;
+  width: 630px;
   height: 500px;
 }
 
